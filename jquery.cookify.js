@@ -6,8 +6,8 @@ Requires jquery-cookie: https://github.com/carhartl/jquery-cookie/
 
 */
 
-(function ( $ ) {
-	$.cookify = function( options ) {
+(function($){
+	$.cookify = function(options){
 		var settings = $.extend({
 			useCookie: false,
 			width: '100%',
@@ -119,4 +119,4 @@ Requires jquery-cookie: https://github.com/carhartl/jquery-cookie/
 			});
 		}
 	};
-}( jQuery ));
+}(jQuery));
